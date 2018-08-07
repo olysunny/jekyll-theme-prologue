@@ -31,7 +31,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Maxine
-subtitle: A finance student who are enthusiastic about data science.
+subtitle: Finance student who are enthusiastic about Data Science.
 description: >- # this means to ignore newlines until "baseurl:"
   Here, there. Welcome to my blog. It is great to have you.:) I'm a self motivated learner who is learning NLP and maching learning. If you are also interested in those parts, feel freeto contact me.
 author: MaxMa
