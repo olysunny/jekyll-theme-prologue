@@ -1,5 +1,5 @@
 ---
-title: SDLC: Waterfall Model
+title: SDLC_Waterfall Model
 author: Max
 layout: post
 ---
