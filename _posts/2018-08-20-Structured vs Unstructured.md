@@ -42,6 +42,6 @@ Unstructured data is essentially everything else. Unstructured data has internal
 		</ul>
 	</div>
 </div>
-
+<a href="#" class="image fit"><img src="{{ 'assets/images/structured-unstructured.jpg' | relative_url }}" alt="Ipsum Feugiat" /></a>
 
 
