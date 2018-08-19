@@ -17,8 +17,7 @@ Some relational databases do store or point to unstructured data such as custome
 <h1>What is Unstructured Data?</h1>
 Unstructured data is essentially everything else. Unstructured data has internal structure but is not structured via pre-defined data models or schema. It may be textual or non-textual, and human- or machine-generated. It may also be stored within a non-relational database like NoSQL.
 
-<h2>unstructured data</h2>
-	
+
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Typical human-generated</h3>
