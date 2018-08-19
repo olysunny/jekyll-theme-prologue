@@ -8,7 +8,7 @@ Customer’s requirements to the delivered product as well as customer’s budge
 
 Waterfall Model is for small and trivial projects. According to the Waterfall model, development proceeds from one phase to another. What’s important, you can’t move forward until the previous stage has been completed. The project is implemented step-by-step in accordance with the precise sequence: requirements gathering and study, software design, software development, software testing and software maintenance.
  
- <a href="#" class="image fit"><img src="{{ 'assets/images/pic02.jpg' | relative_url }}" alt="Ipsum Feugiat" /></a>
+ <a href="#" class="image fit"><img src="{{ 'assets/images/Waterfall_model.svg' | relative_url }}" alt="Ipsum Feugiat" /></a>
  
 1. Requirements Analysis (Requirements Phase) 
 At this phase, it is important to document all requirements to the desired software. You should dedicate sufficient time to this phase, conducting extensive interviews with stakeholders. It is better to structure all incoming data, analyze them, consider all technical limitations that may arise on the client’s side, and come out with a ready-to-follow specification to meet the client’s needs. Another thing to consider is any constraints that may hinder the development process, such as client’s time and budget constraints.
