@@ -11,10 +11,7 @@ Waterfall Model is for small and trivial projects. According to the Waterfall mo
 1. Requirements Analysis (Requirements Phase)
 At this phase, it is important to document all requirements to the desired software. You should dedicate sufficient time to this phase, conducting extensive interviews with stakeholders. It is better to structure all incoming data, analyze them, consider all technical limitations that may arise on the client’s side, and come out with a ready-to-follow specification to meet the client’s needs. Another thing to consider is any constraints that may hinder the development process, such as client’s time and budget constraints.
 
-*Notice: 
-1 Create a detailed problem vision document, specifying the problem background, business goals and success criteria for the project, factors of business risk and description of the product end-user group.
-2 Conduct more interviews and interactive workshops with your stakeholders to elicit some non-obvious things that may further cause redesigning of software interface or be rewriting some code patterns. 
-3 Additional requirements that arise on the development phase. 
+*Notice: Create a detailed problem vision document, specifying the problem background, business goals and success criteria for the project, factors of business risk and description of the product end-user group. Additional requirements that arise on the development phase. 
 
 
 2. Software Design Phase
