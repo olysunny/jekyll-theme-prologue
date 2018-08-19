@@ -55,12 +55,12 @@ Semi-structured data maintains internal tags and markings that identify separate
 
 Email is a very common example of a semi-structured data type. Although more advanced analysis tools are necessary for thread tracking, near-dedupe, and concept searching; email’s native metadata enables classification and keyword searching without any additional tools.
 
-Examples of Semi-structured Data
+
 
 <div class="6u$ 12u$(small)">
-		<h3>Typical machine-generated</h3>
+		<h3>Examples of Semi-structured Data</h3>
 		<ul>
-			<li>Markup language XML This is a semi-structured document language. XML is a set of document encoding rules that defines a human- and machine-readable format. (Although saying that XML is human-readable doesn’t pack a big punch: anyone trying to read an XML document has better things to do with their time.) Its value is that its tag-driven structure is highly flexible, and coders can adapt it to universalize data structure, storage, and transport on the Web.
+			<li><b>Markup language XML This is a semi-structured document language. XML is a set of document encoding rules that defines a human- and machine-readable format. (Although saying that XML is human-readable doesn’t pack a big punch: anyone trying to read an XML document has better things to do with their time.) Its value is that its tag-driven structure is highly flexible, and coders can adapt it to universalize data structure, storage, and transport on the Web.
 Open standard JSON (JavaScript Object Notation) JSON is another semi-structured data interchange format. Java is implicit in the name but other C-like programming languages recognize it. Its structure consists of name/value pairs (or object, hash table, etc.) and an ordered value list (or array, sequence, list). Since the structure is interchangeable among languages, JSON excels at transmitting data between web applications and servers.
 NoSQL Semi-structured data is also an important element of many NoSQL (“not only SQL”) databases. NoSQL databases differ from relational databases because they do not separate the organization (schema) from the data. This makes NoSQL a better choice to store information that does not easily fit into the record and table format, such as text with varying lengths. It also allows for easier data exchange between databases. Some newer NoSQL databases like MongoDB and Couchbase also incorporate semi-structured documents by natively storing them in the JSON format.
 In big data environments, NoSQL does not require admins to separate operational and analytics databases into separate deployments. NoSQL is the operational database and hosts native analytics tools for business intelligence. In Hadoop environments, NoSQL databases ingest and manage incoming data and serve up analytic results.
