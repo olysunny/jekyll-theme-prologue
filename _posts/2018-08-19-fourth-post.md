@@ -46,5 +46,50 @@ Waterfall Cons:
 2 A small change in one phase causes many changes in all subsequent 
 3 Software deliverables are available only at the end of a cycle
 
+<div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>Pro vs Con</th>
+        <th>Comparison</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Item 1</td>
+        <td>Ante turpis integer aliquet porttitor.</td>
+        <td>29.99</td>
+      </tr>
+      <tr>
+        <td>Item 2</td>
+        <td>Vis ac commodo adipiscing arcu aliquet.</td>
+        <td>19.99</td>
+      </tr>
+      <tr>
+        <td>Item 3</td>
+        <td> Morbi faucibus arcu accumsan lorem.</td>
+        <td>29.99</td>
+      </tr>
+      <tr>
+        <td>Item 4</td>
+        <td>Vitae integer tempus condimentum.</td>
+        <td>19.99</td>
+      </tr>
+      <tr>
+        <td>Item 5</td>
+        <td>Ante turpis integer aliquet porttitor.</td>
+        <td>29.99</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2"></td>
+        <td>100.00</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+
 Where to use: 
 This model is canonical for military, space, medical and life-critical systems such as flight control software, airbag systems, etc. It can be also used for small and trivial projects.
