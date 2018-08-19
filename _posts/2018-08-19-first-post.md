@@ -1,5 +1,5 @@
 ---
-title: Software Development Life Cycle (SDLC) -- Waterfall Model
+title: SDLC: Waterfall Model
 author: Max
 layout: post
 ---
