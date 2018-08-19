@@ -1,6 +1,6 @@
 ---
-title: Second Post
-author: Chris
+title: Structured vs Unstructured Data
+author: Max
 layout: post
 ---
 
