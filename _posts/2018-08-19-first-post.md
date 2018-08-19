@@ -1,7 +1,6 @@
 ---
 title: SDLC: Waterfall Model
 author: Max
-date: 08.19.2018
 layout: post
 ---
 Customer’s requirements to the delivered product as well as customer’s budgets. We need to choice among different types of models: waterfall model, spiral model, kanban development model, rapid prototyping, scrum model, etc. Selection of a particular type of life-cycle model depends largely on the project scope and stakes. 
