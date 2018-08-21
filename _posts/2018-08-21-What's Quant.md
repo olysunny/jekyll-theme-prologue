@@ -1,6 +1,6 @@
 ---
-title: Third Post
-author: Chris
+title: What's Quant
+author: Max
 layout: post
 icon: fa-lightbulb-o
 ---
