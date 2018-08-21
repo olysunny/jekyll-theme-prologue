@@ -1,5 +1,5 @@
 ---
-title: Structured vs Unstructured Data
+title: Structured vs Unstructured
 author: Max
 layout: post
 ---
