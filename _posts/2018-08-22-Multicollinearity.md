@@ -41,7 +41,7 @@ The potential solutions include the following:
 
 1. Remove some of the highly correlated independent variables.
 2. Linearly combine the independent variables, such as adding them together.
-3. Perform an analysis designed for highly correlated variables, such as principal components analysis (<a href="http://blog.csdn.net/zxd1754771465/article/details/73468172">PCA</a>) or partial least squares regression.
+3. Perform an analysis designed for highly correlated variables, such as principal components analysis (<a href="https://blog.csdn.net/u010798503/article/details/70147064">PCA</a>) or partial least squares regression.
 4. Center the independent variables to reduce structural multicollinearity, which is also known as standardizing the variables by subtracting the mean. The advantage of just subtracting the mean is that the interpretation of the coefficients remains the same. 
 5. <a href="http://baike.baidu.com/link?url=nKqLQwAVwJtyw-sCGo-d5_OBUnauFOwPeZanHUb7SbCWWAmaK6wRXWAbpwmiHL_u7NI6CMHfCfGLoJl1V0Ps9kmROsqfHIOLE4jtCAOjoe-jE7OZQ7ZFIw85W4s9MBMD">Multistepwise regression</a>
 6. Increase sample size
