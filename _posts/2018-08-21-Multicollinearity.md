@@ -43,8 +43,9 @@ The potential solutions include the following:
 2. Linearly combine the independent variables, such as adding them together.
 3. Perform an analysis designed for highly correlated variables, such as principal components analysis (<a hrf="http://blog.csdn.net/zxd1754771465/article/details/73468172"PCA</a>) or partial least squares regression.
 4. Center the independent variables to reduce structural multicollinearity, which is also known as standardizing the variables by subtracting the mean. The advantage of just subtracting the mean is that the interpretation of the coefficients remains the same. 
-
-
+5. <a hrf="http://baike.baidu.com/link?url=nKqLQwAVwJtyw-sCGo-d5_OBUnauFOwPeZanHUb7SbCWWAmaK6wRXWAbpwmiHL_u7NI6CMHfCfGLoJl1V0Ps9kmROsqfHIOLE4jtCAOjoe-jE7OZQ7ZFIw85W4s9MBMD"Multistepwise regression</a>
+6. Increase sample size
+7. Not directly process data, but add regulazation terms when training model.
 
 If you can accept <b>less precise coefficients, or a regression model with a high R-squared but hardly any statistically significant variables</b>, then not doing anything about the multicollinearity might be the best solution.
 
