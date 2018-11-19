@@ -31,7 +31,7 @@ layout: post
          <li>Zivot-Andrews test</li>
          <li>ADF-GLS test</li>
     </ul>
-    The most simple test is the DF-test. The ADF and the PP test are similar to the Dickey-Fuller test, but they correct for lags. The ADF does so by including them the PP test does so by adjusting the test statistics.
+    <p>The most simple test is the DF-test. The ADF and the PP test are similar to the Dickey-Fuller test, but they correct for lags. The ADF does so by including them the PP test does so by adjusting the test statistics.</p>
 
     <h3>Some Stationarity tests:</h3>
     <ul>
