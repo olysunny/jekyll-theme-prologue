@@ -57,7 +57,7 @@ layout: post
             </ul>
 	   <ul>
 		   <li>Power problem: if there is small <em>random walk component</em> (small variance σ2μ), we can’t reject unit root and can’t reject stationarity.</li>
-		   <li>Economics: if the series is highly persistent we can’t reject H0 (unit root) – highly persistent may be even without unit root, but it also means we shouldn’t treat/take data in levels. Whether a time series is "highly persistent" can be measured with the p-value of a unit-root test. For a more detailed discussion what "persistence" means in time-series see: <a href="Persistence in time series">https://stats.stackexchange.com/questions/11927/persistence-in-time-series</a></li>
+		   <li>Economics: if the series is highly persistent we can’t reject H0 (unit root) – highly persistent may be even without unit root, but it also means we shouldn’t treat/take data in levels. Whether a time series is "highly persistent" can be measured with the p-value of a unit-root test. For a more detailed discussion what "persistence" means in time-series see: <a href="https://stats.stackexchange.com/questions/11927/persistence-in-time-series">Persistence in time series</a></li>
 	   </ul>
      </div>
   </div>
