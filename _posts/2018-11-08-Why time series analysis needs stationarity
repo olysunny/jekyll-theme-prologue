@@ -1,6 +1,5 @@
 ---
 title: Why time series analysis needs stationarity
-author: Max
 layout: post
 ---
 We have long been concerned that non-stationary data should be first converted into stationary data, 
