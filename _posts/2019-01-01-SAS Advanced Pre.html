@@ -36,10 +36,91 @@ layout: post
                         <p>Answer: D</p>
                         <p>Without force not excuete, with index deleted</p>
 		</dd>
-   
+		
+		<dt>6. The table WORK.PILOTS contains the following data:
+ 
+   WORK.PILOTS
+ 
+   Id   Name     Jobcode  Salary
+   ---  ------   -------  ------
+   001  Albert   PT1       50000
+   002  Brenda   PT1       70000
+   003  Carl     PT1       60000
+   004  Donna    PT2       80000
+   005  Edward   PT2       90000
+   006  Flora    PT3      100000
+ 
+ The data set was summarized to include average
+ salary based on jobcode:       
+ 
+   Jobcode  Salary     Avg      
+   -------  ------   -----      
+   PT1       50000   60000      
+   PT1       70000   60000      
+   PT1       60000   60000      
+   PT2       80000   85000      
+   PT2       90000   85000      
+   PT3      100000  100000      
+ 
+ Which SQL statement could NOT generate  
+ this result? 
 
+ </dt>
+		<dd>
+			
 
-
+        <p>A.
+ select 
+   Jobcode,   
+   Salary,    
+   avg(Salary) label='Avg'      
+from WORK.PILOTS
+group by Jobcode
+order by Id   
+; </p>     
+ 
+     <p>B.
+ select 
+   Jobcode,   
+   Salary,    
+   (select avg(Salary)  
+   from WORK.PILOTS as P1       
+   where P1.Jobcode=P2.Jobcode) as Avg   
+from WORK.PILOTS as P2  
+order by Id   
+;</p>      
+ 
+     <p>C.
+ select 
+   Jobcode,   
+   Salary,    
+   (select avg(Salary)  
+   from WORK.PILOTS     
+   group by Jobcode) as Avg     
+from WORK.PILOTS
+order by Id   
+; </p>     
+ 
+     <p>D.
+ select 
+   Jobcode,   
+   Salary,    
+   Avg 
+from   
+   WORK.PILOTS, 
+  (select     
+      Jobcode as Jc,    
+      avg(Salary) as Avg
+   from WORK.PILOTS     
+   group by 1)
+where Jobcode=Jc
+order by Id   
+; </p>     
+ 
+      
+                        <p>Answer: C</p>
+			<P>GROUP BY</p>
+		</dd>
 		
 	</dl>
 
