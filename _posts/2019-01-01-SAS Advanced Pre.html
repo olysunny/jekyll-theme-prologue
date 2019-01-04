@@ -122,6 +122,34 @@ order by Id
 			<P>GROUP BY</p>
 		</dd>
 		
+		<dt>7. A quick rule of thumb for the space required to run PROC SORT is: </dt>
+		<dd>
+		<p>A. two times the size of the SAS data set being sorted.</p>      
+		<p>B. three times the size of the SAS data set being sorted.</p>    
+		<p>C. four times the size of the SAS data set being sorted.</p>     
+		<p>D. five times the size of the SAS data set being sorted.</p>  
+                        <p>Answer: A</p>
+                        <p>"By" apply to each variabl, "Class" apply to whole</p>
+		</dd>
+		
+		<dt>10. The following SAS program is submitted:   
+  %let Value=9; 
+  %let Add=5; 
+  %let Newval=%eval(&Value/&Add);
+  %put &Newval; 
+ 
+     What is the value of the macro variable   
+     Newval when the %PUT statement executes?  
+ </dt>
+		<dd>
+		<p>A. 0.555</p>      
+		<p>B. 2</p>    
+		<p>C. 1.8</p>     
+		<p>D. 1</p>  
+                        <p>Answer: D</p>
+                        <p>%EVAL function only supports integer arithmetic values. %sysevalf is capable of evaluating the floating point operands.</p>
+		</dd>
+		
 	</dl>
 
 <!-- Preformatted Code -->
